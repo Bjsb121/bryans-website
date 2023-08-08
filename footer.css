@@ -1,0 +1,31 @@
+.footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-inline: 200px;
+  border-top: 1px solid #272727;
+}
+
+.footer-box img {
+  height: 150px;
+  width: auto;
+}
+
+.footer-box h3 {
+  color: #272727;
+  font-size: 25px;
+}
+
+.footer02-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  height: 150px;
+  width: auto;
+}

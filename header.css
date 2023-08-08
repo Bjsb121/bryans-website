@@ -1,0 +1,44 @@
+.header-box {
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-box img {
+  width: 175px;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.spacer {
+  width: 300px;
+}
+
+.header-box h3 {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  color: #272727;
+  transition: color 0.2s;
+  text-decoration: none;
+  margin: 0;
+}
+
+.header-box h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-box h3:active {
+  color: #808080;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.spacer02 {
+  width: 50px;
+}
+

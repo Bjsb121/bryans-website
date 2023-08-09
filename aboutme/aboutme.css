@@ -10,6 +10,42 @@ body {
   animation-fill-mode: forwards;
 }
 
+.body-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-main img {
+  width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.body-main h3 {
+  font-family: 'VT323', monospace;
+  color: #272727;
+  font-size: 35px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#sub-title {
+  color: #808080;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.body-main p {
+  color: #272727;
+  font-size: 15px;
+  width: 640px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;

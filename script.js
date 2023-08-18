@@ -1,5 +1,7 @@
 const heading = document.getElementById('htmlMain');
 
+heading.classList.toggle('drkmode');
+
 const toggleFunc = () => {
-  heading.classList.toggle('test01');
+  heading.classList.toggle('drkmode');
 };

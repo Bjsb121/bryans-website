@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="htmlMain" class="test01 transition">
+<html lang="en" id="htmlMain" class="drkmode transition">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,12 @@
     <p class="spacer02"></p>
   </header>
 
-  <button id="dark-mode" onclick="toggleFunc()" >Click Me!</button>
+  <label class="switch">
+    <input type="checkbox" onclick="toggleFunc()">
+    <span class="slider round"></span>
+  </label>
+
+  <div class="space"></div>
 
   <footer class="footer-box">
     <img src="resources/2003name.png"/>

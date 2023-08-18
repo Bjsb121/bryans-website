@@ -2,7 +2,17 @@ html {
   background-color: #f9f9f9;
   font-family: 'Space Mono', monospace;
   /* font-family: 'VT323', monospace; */
-  /* filter: invert(1); */
+}
+
+.test01 {
+  filter: invert(1);
+}
+
+.transition {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 body {
@@ -18,4 +28,23 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+#dark-mode {
+  font-family: 'Space Mono', monospace;
+  border-style: none;
+  background-color: #272727;
+  color: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #808080;
+  position: relative;
+  left: 50%;
+  margin: 50px 0;
+  transition: opacity 0.25s;
+}
+
+#dark-mode:hover {
+  opacity: 0.75;
+  cursor: pointer;
 }

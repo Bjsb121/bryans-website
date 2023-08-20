@@ -20,8 +20,8 @@
   font-family: 'VT323', monospace;
   font-size: 40px;
   color: #272727;
-  transition: color 0.2s;
-  text-decoration: none;
+  text-decoration: underline solid transparent;
+  transition: text-decoration .5s ease;
   margin: 0;
 }
 
@@ -36,9 +36,5 @@
 
 a:link {
   text-decoration: none;
-}
-
-.spacer02 {
-  width: 50px;
 }
 

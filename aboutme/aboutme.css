@@ -74,12 +74,9 @@ body {
 }
 
 .switch {
-  position: absolute;
-  display: inline-block;
-  right: 75px;
-  top: 175px;
   width: 60px;
   height: 30px;
+  rotate: 90deg;
 }
 
 .switch input { 

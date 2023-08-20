@@ -17,7 +17,7 @@ body {
   align-items: center;
 }
 
-.body-main img {
+.body-main img:not(#linkImg) {
   width: 250px;
   height: auto;
   border-radius: 50%;
@@ -39,12 +39,54 @@ body {
   margin: 0 0 30px 0;
 }
 
-.body-main p {
+.body-main p:not(.link p) {
   color: #272727;
   font-size: 15px;
   width: 640px;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.hyperlinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  margin-inline: 50px;
+  margin-bottom: 50px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #808080;
+}
+
+.link:active {
+  color: #808080;
+}
+
+.link p {
+  margin: 0 15px;
+  padding: 0;
+  color: #272727;
+  font-size: 17.5px;
+}
+
+#linkImg {
+  width: 17.5px;
+  height: auto;
+  vertical-align: bottom;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 @keyframes fadeInAnimation {

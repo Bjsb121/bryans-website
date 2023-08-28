@@ -46,6 +46,7 @@ a:link {
 
 #position {
   position: fixed;
+  z-index: 100;
   top: 0;
   width: 100%;
 }
@@ -130,6 +131,6 @@ a:link {
   }
 
   .switch {
-    margin: 0;
+    margin: 10px 0;
   }
 }

@@ -20,7 +20,6 @@ body {
 }
 
 .space {
-  margin-top: 100px;
   height: 500px;
 }
 
@@ -134,5 +133,9 @@ input:checked + .slider:before {
 
   input:checked + .slider {
     background-color: #f9f9f9;
+  }
+
+  body {
+    margin-top: 175px;
   }
 }

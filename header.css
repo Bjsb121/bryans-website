@@ -1,9 +1,10 @@
-.header-box {
+.ul-box {
   display: flex;
   flex-direction: row;
   height: 175px;
   align-items: center;
   justify-content: space-between;
+  list-style: none;
 }
 
 .header-box img {
@@ -12,25 +13,25 @@
   vertical-align: bottom;
 }
 
-.spacer {
-  width: 300px;
+label {
+  margin-right: 50px;
 }
 
-.header-box h3 {
+.header-box li a {
   font-family: 'VT323', monospace;
   font-size: 40px;
   color: #272727;
   text-decoration: underline solid transparent;
   transition: text-decoration .5s ease;
-  margin: 0;
+  vertical-align: bottom;
 }
 
-.header-box h3:hover {
+.header-box li a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.header-box h3:active {
+.header-box li a:active {
   color: #808080;
 }
 
@@ -38,3 +39,10 @@ a:link {
   text-decoration: none;
 }
 
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+
+};

@@ -1,5 +1,9 @@
 const heading = document.getElementById('htmlMain');
-// const checkbox = document.getElementById('check-box');
+const hamburgerBox = document.getElementById('hamburgerBox');
+
+const toggleButton = () => {
+  hamburgerBox.classList.toggle('hamburger-box');
+};
 
 const enableDMode = () => {
   heading.classList.add('drkmode');
@@ -30,3 +34,4 @@ const buttonToClick = () => {
 };
 
 update();
+toggleButton();

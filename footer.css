@@ -29,3 +29,5 @@
   height: 150px;
   width: auto;
 }
+
+@media only screen and (max-width: 1200px) {};

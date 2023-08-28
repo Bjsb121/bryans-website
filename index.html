@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" id="htmlMain" class="drkmode transition">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=VT323&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
   <header class="header-box">
     <ul class="ul-box">
-      <a href="index.html"><img src="resources/2003.png"/></a>
+      <a href="index.html"><img src="resources/2003.png" /></a>
       <li><a href="index.html">Home</a></li>
       <li><a href="projects/projects.html">Projects</a></li>
       <li><a href="aboutme/aboutme.html">About Me</a></li>
@@ -27,20 +29,42 @@
         <span class="slider round"></span>
       </label>
     </ul>
+
+    <!-- Hamburger Menu -->
+
+    <div id="position">
+      <div class="mobile-navbar">
+        <a href="index.html"><img src="resources/2.png" /></a>
+        <button class="hamburger-button" onclick="toggleButton()"><img src="./resources/menu-outline.svg"
+            id="hamburger-svg" /></button>
+      </div>
+
+      <ul class="hamburger-box after" id="hamburgerBox">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects/projects.html">Projects</a></li>
+        <li><a href="aboutme/aboutme.html">About Me</a></li>
+        <li><a href="contact/contact.html">Contact</a></li>
+        <label class="switch">
+          <input type="checkbox" onclick="buttonToClick()" id="check-box">
+          <span class="slider round"></span>
+        </label>
+      </ul>
+    </div>
   </header>
 
   <div class="space"></div>
 
   <footer class="footer-box">
-    <img src="resources/2003name.png"/>
+    <img src="resources/2003name.png" />
     <h3>Where Imagination Meets Implementation</h3>
   </footer>
 
   <footer02 class="footer02-box">
-    <img class="footer-logo" src="resources/2003logo.png"/>
+    <img class="footer-logo" src="resources/2003logo.png" />
   </footer02>
 
   <script src="script.js"></script>
-  
+
 </body>
+
 </html>

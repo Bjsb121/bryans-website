@@ -20,17 +20,37 @@
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1182px) {
+  .footer-box {
+    margin-inline: 200px;
+  }
+}
+
+@media only screen and (max-width: 982px) {
+  .footer-box {
+    margin-inline: 100px;
+  }
+}
+
+@media only screen and (max-width: 782px) {
   .footer-box {
     margin-inline: 200px;
   }
 
   .footer-box h3 {
     font-size: 20px;
+    width: 300px;
+    text-align: center;
   }
 
   .footer-box img {
     height: 100px;
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 482px) {
+  .footer-box {
+    margin-inline: 100px;
   }
 }

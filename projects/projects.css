@@ -147,6 +147,16 @@ input:checked + .slider:before {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1200px) {
+  .body-1 {
+    padding:  15px 150px 50px 150px;
+  }
+  
+  .body-2 {
+    padding-inline: 150px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .switch {
     width: 40px;
@@ -171,6 +181,41 @@ input:checked + .slider:before {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .body-1 {
+    padding:  15px 100px 50px 100px;
+  }
+  
+  .body-2 {
+    padding-inline: 100px;
+  }
+  
+  .quote {
+    padding-inline: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px){
+
+  .body-1 {
+    flex-direction: column;
+    padding:  15px 100px 50px 100px;
+  }
+  
+  .body-2 {
+    flex-direction: column;
+    padding-inline: 100px;
+  }
+
+  .body-1 p {
+    margin: 50px 0 0 0;
+  }
+
+  .body-2 p {
+    margin: 0 0 50px 0;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .switch {
     rotate: 0deg;
@@ -191,5 +236,25 @@ input:checked + .slider:before {
 
   body {
     margin-top: 175px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .body-1 {
+    padding:  15px 75px 50px 75px;
+  }
+  
+  .body-2 {
+    padding-inline: 75px;
+  }
+
+  .body-1 img {
+    height: 200px;
+    width: auto;
+  }
+  
+  .body-2 img {
+    height: 200px;
+    width: auto;
   }
 }

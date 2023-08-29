@@ -196,6 +196,12 @@ input:checked + .slider:before {
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .body-main p:not(.link p) {
+    width: 500px;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .switch {
     rotate: 0deg;
@@ -216,5 +222,42 @@ input:checked + .slider:before {
 
   body {
     margin-top: 175px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .body-main p:not(.link p) {
+    width: 350px;
+  }
+
+  .body-main img:not(#linkImg) {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .body-main p:not(.link p) {
+    width: 300px;
+  }
+
+  .body-main img:not(#linkImg) {
+    width: 150px;
+    height: auto;
+  }
+
+  .link {
+    flex-direction: row;
+    margin-inline: 25px;
+  }
+
+  .link p {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  
+  #linkImg {
+    width: 15px;
+    height: auto;
   }
 }

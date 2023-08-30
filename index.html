@@ -53,7 +53,9 @@
     </div>
   </header>
 
-  <div class="space"></div>
+  <!-- <div class="space"></div> -->
+  <model-viewer src="resources/3DModel.glb" shadow-intensity="1" camera-controls touch-action="pan-y" camera-orbit="350deg 180deg 80%" camera-target="0m 0m 0m" auto-rotate></model-viewer>
+  <!-- https://modelviewer.dev/docs/index.html#loading-attributes -->
 
   <footer class="footer-box">
     <img src="resources/2003name.png"/>
@@ -62,6 +64,7 @@
   </footer>
 
   <script src="script.js"></script>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 
 </body>
 

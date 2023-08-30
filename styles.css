@@ -19,13 +19,28 @@ body {
   }
 }
 
-.space {
+.viewer {
   height: 500px;
+  width: auto;
+  margin: 100px 0;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.progress-bar {
+  display: none;
+  visibility: hidden;
 }
 
 /* Dark Mode */
 
 .drkmode {
+  filter: invert(1);
+}
+
+.dark {
   filter: invert(1);
 }
 

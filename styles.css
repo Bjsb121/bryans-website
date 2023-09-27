@@ -22,7 +22,7 @@ body {
 .viewer {
   height: 500px;
   width: auto;
-  margin-top: 15px;
+  margin: 15px 0;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;

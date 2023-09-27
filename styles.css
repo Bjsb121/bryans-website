@@ -22,7 +22,7 @@ body {
 .viewer {
   height: 500px;
   width: auto;
-  margin: 15px 0 50px 0;
+  margin-top: 15px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -32,6 +32,19 @@ body {
 .progress-bar {
   display: none;
   visibility: hidden;
+}
+
+.scan-description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#description-a {
+  color: #272727;
+  text-decoration: underline solid #272727;
+  transition: text-decoration .5s ease;
+  vertical-align: bottom;
 }
 
 /* Dark Mode */
@@ -151,7 +164,12 @@ input:checked + .slider:before {
   }
 
   body {
-    margin-top: 175px;
+    margin-top: 150px;
+  }
+
+  .scan-description {
+    font-size: 14px;
+    margin-bottom: 25px;
   }
 }
 
@@ -159,7 +177,6 @@ input:checked + .slider:before {
   .viewer {
     height: 300px;
     width: auto;
-    margin: 15px 15px 30px 15px;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;

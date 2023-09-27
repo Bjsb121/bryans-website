@@ -185,7 +185,7 @@ input:checked + .slider:before {
   }
 
   body {
-    margin-top: 175px;
+    margin-top: 150px;
   }
 }
 

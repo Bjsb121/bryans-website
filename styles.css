@@ -51,6 +51,14 @@ body {
   opacity: 0.75;
 }
 
+.description-a:active {
+  color: #272727;
+}
+
+.description-a:visited {
+  color: #272727;
+}
+
 /* Dark Mode */
 
 .drkmode {

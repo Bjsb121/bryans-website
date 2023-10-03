@@ -40,11 +40,15 @@ body {
   margin-bottom: 50px;
 }
 
-#description-a {
+.description-a {
   color: #272727;
-  text-decoration: underline solid #272727;
-  transition: text-decoration .5s ease;
   vertical-align: bottom;
+  transition: opacity 0.25s;
+}
+
+.description-a:hover {
+  cursor: pointer;
+  opacity: 0.75;
 }
 
 /* Dark Mode */

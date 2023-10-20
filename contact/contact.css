@@ -42,6 +42,7 @@ body {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -66,7 +67,7 @@ body {
   rotate: 90deg;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -97,11 +98,11 @@ body {
   transition: .5s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #272727;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(30px);
   -ms-transform: translateX(30px);
   transform: translateX(30px);
@@ -130,7 +131,7 @@ input:checked + .slider:before {
     bottom: 3.3px;
   }
 
-  input:checked + .slider:before {
+  input:checked+.slider:before {
     -webkit-transform: translateX(20px);
     -ms-transform: translateX(20px);
     transform: translateX(20px);
@@ -180,7 +181,7 @@ input:checked + .slider:before {
     background-color: #272727;
   }
 
-  input:checked + .slider {
+  input:checked+.slider {
     background-color: #f9f9f9;
   }
 

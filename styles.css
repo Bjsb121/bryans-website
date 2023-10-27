@@ -35,6 +35,18 @@ body {
   visibility: hidden;
 }
 
+#lazy-load-poster {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("resources/Backpack.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .scan-description {
   font-size: 16px;
   text-align: center;

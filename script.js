@@ -2,6 +2,10 @@ const heading = document.getElementById('htmlMain');
 const hamburgerBox = document.getElementById('hamburgerBox');
 const viewPort = document.getElementById('view-port');
 
+const buttonLoad = () => {
+  viewPort.dismissPoster();
+};
+
 viewPort.classList.toggle('dark');
 
 const toggleButton = () => {

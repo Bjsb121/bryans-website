@@ -4,6 +4,17 @@ const viewPort = document.getElementById('view-port');
 
 const buttonLoad = () => {
   viewPort.dismissPoster();
+  window.localStorage.setItem('posterDismissed', 'true');
+};
+
+window.onload = function() {
+  const isPosterDismissed = localStorage.getItem('posterDismissed') === 'true';
+
+  if (isPosterDismissed) {
+    viewPort.dismissPoster();
+  } else {
+    viewPort.showPoster();
+  }
 };
 
 viewPort.classList.toggle('dark');
@@ -15,7 +26,7 @@ const toggleButton = () => {
 const enableDMode = () => {
   heading.classList.add('drkmode');
   viewPort.classList.add('dark');
-  window.localStorage.setItem('darkmode', 'enabled');
+  localStorage.setItem('darkmode', 'enabled');
 };
 
 const disableDMode = () => {

@@ -59,7 +59,7 @@
 
   <model-viewer class="viewer dark" id="view-port" src="resources/3DModel-v1.glb" shadow-intensity="1" disable-pan
     disable-tap camera-orbit="205deg 80deg 100%" camera-target="0m 0m 0m" auto-rotate auto-rotate-delay="0"
-    rotation-per-second="20deg" loading="eager" reveal="manual">
+    rotation-per-second="20deg" loading="lazy" reveal="manual">
     <div class="progress-bar" slot="progress-bar"></div>
     <div id="lazy-load-poster" slot="poster"></div>
     <div id="button-load" slot="poster" onclick="buttonLoad()">Load 3D Model</div>

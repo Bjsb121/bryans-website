@@ -30,12 +30,6 @@ body {
   transition: all 0.25s ease-in-out;
 }
 
-.progress-bar {
-  /* display: none; */
-  /* visibility: hidden; */
-  color: #272727;
-}
-
 #lazy-load-poster {
   position: absolute;
   left: 0;

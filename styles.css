@@ -31,8 +31,9 @@ body {
 }
 
 .progress-bar {
-  display: none;
-  visibility: hidden;
+  /* display: none; */
+  /* visibility: hidden; */
+  color: #272727;
 }
 
 #lazy-load-poster {

@@ -24,11 +24,11 @@
 
   <header class="header-box">
     <ul class="ul-box">
-      <a href="index.html"><img src="resources/2003.png" /></a>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects/projects.html">Projects</a></li>
-      <li><a href="aboutme/aboutme.html">About Me</a></li>
-      <li><a href="contact/contact.html">Contact</a></li>
+      <a href="index.html" aria-label="Home"><img src="resources/2003.webp" alt="Schmidt Web Development Logo" /></a>
+      <li><a href="index.html" aria-label="Home">Home</a></li>
+      <li><a href="projects/projects.html" aria-label="Projects">Projects</a></li>
+      <li><a href="aboutme/aboutme.html" aria-label="About Me">About Me</a></li>
+      <li><a href="contact/contact.html" aria-label="Contact">Contact</a></li>
       <label class="switch">
         <input type="checkbox" onclick="buttonToClick()" id="check-box">
         <span class="slider round"></span>
@@ -39,16 +39,17 @@
 
     <div id="position">
       <div class="mobile-navbar">
-        <a href="index.html"><img src="resources/2.png" /></a>
-        <button class="hamburger-button" onclick="toggleButton()"><img src="./resources/menu-outline.svg"
-            id="hamburger-svg" /></button>
+        <a href="index.html" aria-label="Home"><img src="resources/2.webp"
+            alt="Dark Schmidt Web Development Logo" /></a>
+        <button class="hamburger-button" onclick="toggleButton()" name="Menu"><img src="./resources/menu-outline.svg"
+            id="hamburger-svg" alt="Menu Button" /></button>
       </div>
 
       <ul class="hamburger-box after" id="hamburgerBox">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects/projects.html">Projects</a></li>
-        <li><a href="aboutme/aboutme.html">About Me</a></li>
-        <li><a href="contact/contact.html">Contact</a></li>
+        <li><a href="index.html" aria-label="Home">Home</a></li>
+        <li><a href="projects/projects.html" aria-label="Projects">Projects</a></li>
+        <li><a href="aboutme/aboutme.html" aria-label="About Me">About Me</a></li>
+        <li><a href="contact/contact.html" aria-label="Contact">Contact</a></li>
         <label class="switch">
           <input type="checkbox" onclick="buttonToClick()" id="check-box">
           <span class="slider round"></span>
@@ -66,13 +67,13 @@
   <!-- https://modelviewer.dev/docs/index.html#loading-attributes -->
 
   <p class="scan-description">"<span style="font-style: italic;">The Bag</span>" <br /> - 3D Scan by Bryan Schmidt</p>
-  <p class="scan-description">Learn more <a href="/aboutme/aboutme.html" class="description-a"><span
-        style="text-decoration: underline;">about me</span></a></p>
+  <p class="scan-description">Learn more <a href="/aboutme/aboutme.html" class="description-a"
+      aria-label="About Me"><span style="text-decoration: underline;">about me</span></a></p>
 
   <footer class="footer-box">
-    <img src="resources/2003name.png" />
+    <img src="resources/2003name.webp" alt="Schmidt Web Development Logo" />
     <h3>Where Imagination Meets Implementation</h3>
-    <img src="resources/2003logo.png" />
+    <img src="resources/2003logo.webp" alt="Dark Schmidt Web Development Logo" />
     <p class="copyright">&#169; 2023 Bryan Schmidt</p>
   </footer>
 

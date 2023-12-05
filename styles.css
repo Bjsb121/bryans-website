@@ -1,5 +1,5 @@
 html {
-  background-color: #f9f9f9;
+  background-color: #D8D8D8;
   font-family: 'Space Mono', monospace;
   color: #272727;
 }
@@ -47,7 +47,7 @@ body {
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: 6% 50%;
-  background-color: #f9f9f9;
+  background-color: #D8D8D8;
   color: #272727;
   cursor: pointer;
   border-radius: 6px;
@@ -136,7 +136,7 @@ body {
   width: 20px;
   left: 5px;
   bottom: 5px;
-  background-color: #f9f9f9;
+  background-color: #D8D8D8;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -191,8 +191,8 @@ input:checked+.slider:before {
   }
 
   .slider {
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px #f9f9f9;
+    background-color: #D8D8D8;
+    box-shadow: 0 0 10px #D8D8D8;
   }
 
   .slider:before {
@@ -200,7 +200,7 @@ input:checked+.slider:before {
   }
 
   input:checked+.slider {
-    background-color: #f9f9f9;
+    background-color: #D8D8D8;
   }
 
   body {

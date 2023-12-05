@@ -1,5 +1,5 @@
 html {
-  background-color: #f9f9f9;
+  background-color: #D8D8D8;
   font-family: 'Space Mono', monospace;
   color: #272727;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #sub-title {
-  color: #808080;
+  color: #272727;
   font-size: 20px;
   text-align: center;
   margin: 0 0 30px 0;
@@ -62,11 +62,11 @@ body {
 .link:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #808080;
+  color: #272727;
 }
 
 .link:active {
-  color: #808080;
+  color: #272727;
 }
 
 .link p {
@@ -148,7 +148,7 @@ a:link {
   width: 20px;
   left: 5px;
   bottom: 5px;
-  background-color: #f9f9f9;
+  background-color: #D8D8D8;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -209,8 +209,8 @@ input:checked+.slider:before {
   }
 
   .slider {
-    background-color: #f9f9f9;
-    box-shadow: 0 0 10px #f9f9f9;
+    background-color: #D8D8D8;
+    box-shadow: 0 0 10px #D8D8D8;
   }
 
   .slider:before {
@@ -218,7 +218,7 @@ input:checked+.slider:before {
   }
 
   input:checked+.slider {
-    background-color: #f9f9f9;
+    background-color: #D8D8D8;
   }
 
   body {

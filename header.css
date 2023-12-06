@@ -14,7 +14,7 @@
 
 .header-box img {
   width: 175px;
-  height: auto;
+  height: 175px;
   vertical-align: bottom;
 }
 
@@ -45,7 +45,7 @@ a:link {
 }
 
 #position {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 0;
   width: 100%;
@@ -55,7 +55,6 @@ a:link {
   display: none;
   align-items: center;
   justify-content: space-between;
-  background: #272727;
   height: 50px;
   align-items: center;
   padding: 25px 50px;
@@ -66,23 +65,21 @@ a:link {
   display: none;
   background: none;
   border: none;
-  filter: invert(1);
 }
 
 #hamburger-svg {
   width: 50px;
-  height: auto;
+  height: 50px;
 }
 
 .hamburger-box {
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  height: calc(100vh - 100px);
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
-  background-color: #272727;
-  padding-bottom: 30px;
+  background-color: #D8D8D8;
   position: relative;
 }
 
@@ -95,10 +92,7 @@ a:link {
 @media only screen and (max-width: 1000px) {
   .header-box img {
     width: 100px;
-  }
-
-  .header-box li a {
-    font-size: 30px;
+    height: 100px;
   }
 }
 
@@ -121,12 +115,6 @@ a:link {
 
   .hamburger-box img {
     display: block;
-  }
-
-  .hamburger-box li a {
-    color: #D8D8D8;
-    line-height: 75px;
-    font-size: 25px;
   }
 
   .switch {

@@ -152,6 +152,7 @@ input:checked+.slider:before {
 @media only screen and (max-width: 750px) {
   .body-text {
     font-size: 35px;
+    line-height: 2;
   }
 
   .main-body {
@@ -170,19 +171,6 @@ input:checked+.slider:before {
 @media only screen and (max-width: 700px) {
   .switch {
     rotate: 0deg;
-  }
-
-  .slider {
-    background-color: #D8D8D8;
-    box-shadow: 0 0 10px #D8D8D8;
-  }
-
-  .slider:before {
-    background-color: #272727;
-  }
-
-  input:checked+.slider {
-    background-color: #D8D8D8;
   }
 
   body {

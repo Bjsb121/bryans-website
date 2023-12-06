@@ -74,6 +74,7 @@ body {
   padding: 0;
   color: #272727;
   font-size: 17.5px;
+  text-align: center;
 }
 
 #linkImg {
@@ -208,19 +209,6 @@ input:checked+.slider:before {
     rotate: 0deg;
   }
 
-  .slider {
-    background-color: #D8D8D8;
-    box-shadow: 0 0 10px #D8D8D8;
-  }
-
-  .slider:before {
-    background-color: #272727;
-  }
-
-  input:checked+.slider {
-    background-color: #D8D8D8;
-  }
-
   body {
     margin-top: 150px;
   }
@@ -230,11 +218,6 @@ input:checked+.slider:before {
   .body-main p:not(.link p) {
     width: 350px;
   }
-
-  .body-main img:not(#linkImg) {
-    width: 200px;
-    height: auto;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -243,8 +226,8 @@ input:checked+.slider:before {
   }
 
   .body-main img:not(#linkImg) {
-    width: 150px;
-    height: auto;
+    width: 200px;
+    height: 200px;
   }
 
   .link {

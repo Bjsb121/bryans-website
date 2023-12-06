@@ -190,19 +190,6 @@ input:checked+.slider:before {
     rotate: 0deg;
   }
 
-  .slider {
-    background-color: #D8D8D8;
-    box-shadow: 0 0 10px #D8D8D8;
-  }
-
-  .slider:before {
-    background-color: #272727;
-  }
-
-  input:checked+.slider {
-    background-color: #D8D8D8;
-  }
-
   body {
     margin-top: 150px;
   }

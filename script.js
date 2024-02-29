@@ -7,7 +7,7 @@ const buttonLoad = () => {
   window.localStorage.setItem('posterDismissed', 'true');
 };
 
-window.onload = function() {
+window.onload = function () {
   const isPosterDismissed = localStorage.getItem('posterDismissed') === 'true';
 
   if (isPosterDismissed) {
